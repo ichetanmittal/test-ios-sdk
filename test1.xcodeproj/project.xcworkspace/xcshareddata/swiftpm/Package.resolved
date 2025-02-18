@@ -1,0 +1,15 @@
+{
+  "originHash" : "70282508cd0a02f11f6b3be7f08f947f898c49314279267c2206213cbb719dc9",
+  "pins" : [
+    {
+      "identity" : "webview-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ichetanmittal/webview-ios-sdk.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ab15d3b62e0a2af4a4600e792661708c1c286dc2"
+      }
+    }
+  ],
+  "version" : 3
+}

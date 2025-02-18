@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D66B9FE92D651A460064305C /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D66B9FE82D651A460064305C /* WebViewSDK */; };
+		D66B9FEC2D651BA20064305C /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D66B9FEB2D651BA20064305C /* WebViewSDK */; };
+		D6B19E642D65269A0011DC25 /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D6B19E632D65269A0011DC25 /* WebViewSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D66B9FCB2D6518330064305C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66B9FE92D651A460064305C /* WebViewSDK in Frameworks */,
+				D66B9FEC2D651BA20064305C /* WebViewSDK in Frameworks */,
+				D6B19E642D65269A0011DC25 /* WebViewSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +121,9 @@
 			);
 			name = test1;
 			packageProductDependencies = (
+				D66B9FE82D651A460064305C /* WebViewSDK */,
+				D66B9FEB2D651BA20064305C /* WebViewSDK */,
+				D6B19E632D65269A0011DC25 /* WebViewSDK */,
 			);
 			productName = test1;
 			productReference = D66B9FBA2D6518320064305C /* test1.app */;
@@ -195,6 +207,9 @@
 			);
 			mainGroup = D66B9FB12D6518320064305C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6B19E622D65269A0011DC25 /* XCRemoteSwiftPackageReference "webview-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D66B9FBB2D6518320064305C /* Products */;
 			projectDirPath = "";
@@ -558,6 +573,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6B19E622D65269A0011DC25 /* XCRemoteSwiftPackageReference "webview-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ichetanmittal/webview-ios-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D66B9FE82D651A460064305C /* WebViewSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WebViewSDK;
+		};
+		D66B9FEB2D651BA20064305C /* WebViewSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WebViewSDK;
+		};
+		D6B19E632D65269A0011DC25 /* WebViewSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6B19E622D65269A0011DC25 /* XCRemoteSwiftPackageReference "webview-ios-sdk" */;
+			productName = WebViewSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D66B9FB22D6518320064305C /* Project object */;
 }
