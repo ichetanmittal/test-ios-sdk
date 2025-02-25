@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D640DB7B2D6D880E006C1869 /* WebViewSDK in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D66B9FE82D651A460064305C /* WebViewSDK */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D66B9FE92D651A460064305C /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D66B9FE82D651A460064305C /* WebViewSDK */; };
 		D66B9FEC2D651BA20064305C /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D66B9FEB2D651BA20064305C /* WebViewSDK */; };
 		D6B19E642D65269A0011DC25 /* WebViewSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D6B19E632D65269A0011DC25 /* WebViewSDK */; };
@@ -28,6 +29,20 @@
 			remoteInfo = test1;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D640DB7C2D6D880E006C1869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D640DB7B2D6D880E006C1869 /* WebViewSDK in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D66B9FBA2D6518320064305C /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +126,7 @@
 				D66B9FB62D6518320064305C /* Sources */,
 				D66B9FB72D6518320064305C /* Frameworks */,
 				D66B9FB82D6518320064305C /* Resources */,
+				D640DB7C2D6D880E006C1869 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
